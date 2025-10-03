@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="6.0+" 
+  codebase="http://localhost:8080/TestWebProjForSwing/">
+    <information>
+        <title>Kanav - Hello From JNLP OF STANDALONE WEBPROJ</title>
+        <vendor>kanav aggarwal</vendor>
+            <security>
+                <all-permissions/>
+            </security>
+    </information>
+    <resources>
+        <j2se version="1.6+" java-vm-args="-esa -Xnoclassgc"/>
+        <jar href="Swing_GUI.jar" main="true" />
+        <jar href="jboss-client.jar"/>
+        <jar href="PetServicesClient-Stub.jar"/>
+        <jar href="wildfly-appclient-10.1.0.Final.jar"/>
+        <jar href="wildfly-security-10.1.0.Final.jar"/>
+        <jar href="wildfly-security-api-10.1.0.Final.jar"/>
+        <jar href="wildfly-security-manager-10.1.0.Final.jar"/>
+        <jar href="wildfly-web-10.1.0.Final.jar"/>
+    </resources>
+    <application-desc main-class="com.bradytechnologies.assignments.java.clientgui.swing.PetApplicationLoginWindow"/>
+</jnlp>
